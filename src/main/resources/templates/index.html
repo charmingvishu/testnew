@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="\css\project.css" rel="stylesheet" type="text/css">
+  <title>Home</title>
+  <link rel="icon" type="image/x-icon" href="\images\android-chrome-512x512.png">
+</head>
+ 
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: bisque;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="\images\android-chrome-512x512.png" alt="hds favicaon" width="30px;">smartTech</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" th:href="@{index}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="shop.html" th:href="@{shop}">Shop</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="my-info.html" th:href="@{my-info}">Info</a></li>
+              <li><a class="dropdown-item" href="brand.html" th:href="@{brand}">Brand Partners</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html" th:href="@{contact}">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="myCart.html" th:href="@{myCart}">Cart</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-but">
+            <a class="btn btn-outline-dark" href="adminLogin.html" th:href="@{admin}">Admin</a>
+          </li>
+          <li class="nav-but">
+            <a class="btn btn-outline-dark" href="signup.html" th:href="@{signup}">SignUp</a>
+          </li>
+          <li class="nav-but">
+            <a class="btn btn-outline-dark" href="login.html"th:href="@{login}" style="margin-left: 4px;">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="container" id="Home">
+    <h1>Lets Find Yourself A New Smarphone</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner bg-light">
+        <div class="carousel-item active">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/844/140/image/bca970efc4cee6ed.jpg?q=50" class="d-block w-100 mx-auto" alt="..." style="width: 1242px; height:450px ;">
+        </div>
+        <div class="carousel-item ">
+          <img src="https://www.shutterstock.com/image-vector/creative-vector-illustration-big-sale-260nw-1364474708.jpg" class="d-block w-100 mx-auto" alt="..." style="width: 1242px; height:450px ;">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/originals/ca/e7/2c/cae72ce86998abcadd5051acd91a696b.jpg" class="d-block w-100 mx-auto" alt="..." >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr>
+    <br>
+     <div class="row">
+      <h1 style="text-align: left;">Budget Category</h1>
+      <div class="col" id="budget" >
+        
+        <img src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/a/i/v/-original-imagfhu6bdzhnmkz.jpeg?q=70"
+          alt="" width="250px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="budget">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="budget">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="budget">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="budget">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+    </div> 
+    <a class="btn btn-outline-dark" th:href="@{shop}" id="buy" style="background-color: orange;">see more</a>
+    <br>
+    <hr>
+    <br>
+    <div class="row">
+      <h2 style="text-align: left;">Mid Range</h2>
+      <div class="col" id="midRange">
+        
+        <img src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/a/i/v/-original-imagfhu6bdzhnmkz.jpeg?q=70"
+          alt="" width="250px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="midRange">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="midRange">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="midRange">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="midRange">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+    </div>
+    <a class="btn btn-outline-dark" th:href="@{shop}" id="buy" style="background-color: orange;">see more</a>
+    <br>
+    <hr>
+    <br>
+    <div class="row">
+      <h2  style="text-align: left;">Premium</h2>
+      <div class="col" id="premium" >
+        
+        <img src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/a/i/v/-original-imagfhu6bdzhnmkz.jpeg?q=70"
+          alt="" width="250px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="premium">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="premium">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="premium">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      <div class="col" id="premium">
+        <img
+          src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70"
+          alt="" width="200px" height="250px">
+          <p><strong>APPLE iPhone 14 Pro Max</strong></p>
+          <p><strong>Price:</strong> &#8377; 177999</p>
+      </div>
+      
+    </div> 
+         <a class="btn btn-outline-dark" th:href="@{shop}" id="buttn">Explore More</a>   
+        
+
+
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  
+   <footer>
+    <p class="contact-no">Contact Number: 9594764107</p>
+  </footer>
+
+
+</body>
+<style>
+
+  .col:hover{
+transform: scale(1.1);
+  }
+   #buttn{
+    margin-top: 0px;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+  }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.contact-no {
+  font-size: 16px;
+}
+
+
+ 
+
+
+</style>
+
+</html>
